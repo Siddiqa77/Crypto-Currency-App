@@ -1,5 +1,5 @@
 // pages/index.tsx
-import CryptoTable from "@/components/cryptotable";
+import CoinMarket from "@/components/cryptotable";
 
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <div>
      
      
-        <CryptoTable />
+        <CoinMarket />
       
     </div>
   );

@@ -27,7 +27,7 @@ export default function CoinMarket() {
 
   return (
     <div className="container mx-auto mt-8 px-4 sm:px-8 lg:px-16">
-      {/* Responsive Header with Image and Title */}
+      
       <div className="flex flex-col items-center justify-center mb-4 sm:flex-row sm:space-x-3">
         <Image src="/logo.png" alt="Logo" width={40} height={40} />
         <h1 className="text-2xl sm:text-3xl font-bold text-center font-mono mt-2 sm:mt-0">
@@ -35,7 +35,7 @@ export default function CoinMarket() {
         </h1>
       </div>
 
-      {/* Search Function */}
+      
       <div className="mb-4 flex justify-center">
         <input
           type="text"
