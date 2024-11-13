@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 export default function CoinMarket() {
   const API_KEY = "ce4cc7a24da0177c2d62135cc2e8bd70";
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<{rates:string}>({rates:""});
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
