@@ -2,14 +2,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-// Interface for crypto data
-interface CryptoData {
-  id: string;
-  rank: number;
-  currency: string;
-  price: number;
-  volume: number;
-}
+
 
 export default function CoinMarket() {
   const API_KEY = "ce4cc7a24da0177c2d62135cc2e8bd70";
